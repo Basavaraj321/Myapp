@@ -7,8 +7,6 @@ import 'package:flutter/painting.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-
-      
       appBar: AppBar(
         title: MyStatefulWidget(),
         backgroundColor: Colors.white,
@@ -20,13 +18,8 @@ void main() {
 
           IconButton(onPressed: (){}, icon: Icon(Icons.search),
           color: Colors.black,),
-
         ],
       ),
-
-
-
-
       body: ChooseMusic(),
     ),
 
@@ -208,16 +201,6 @@ class _ChooseMusic extends State<ChooseMusic>{
                   ),
 
                 ),
-
-
-
-
-
-
-
-
-
-
               ],
             )
 
